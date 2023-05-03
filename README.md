@@ -11,4 +11,6 @@ utils.py : from skimage.measure import compare_psnr, compare_ssim -> from skimag
 
 utils.py (line 328) reduce dimensions or something function arg name changed to axis
 
+"ground-truth-h5" files need to be renamed to "ground" in part_A and part_B for both train and test split
+
 Running the cells up to this point assumes that the data is in a folder named "data" (same one with the file paths to the images)
